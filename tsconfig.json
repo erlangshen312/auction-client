@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es6", "dom", "dom.iterable"],
+    "module": "commonjs",
+    "baseUrl": "./",
+    "paths": {
+      "@shared/*": ["src/_shared/*"],
+      "@services/*": ["src/services/*"],
+      "@utils/*": ["src/utils/*"]
+    },
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es5",
+    "jsx": "react",
+    "noEmit": true,
+    "allowSyntheticDefaultImports":true
+  },
+  "exclude": ["node_modules", "vendor", "public"],
+  "compileOnSave": false
+}
